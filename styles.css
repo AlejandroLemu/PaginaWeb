@@ -1,0 +1,113 @@
+body {
+    background: #000; /* Fondo negro */
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    overflow-x: hidden; /* Para evitar scroll horizontal */
+}
+
+/* Estilos del generador de contraseñas */
+h2 {
+    font-weight: 600;
+    font-size: 32px;
+    color: #fff;
+}
+
+.form-label {
+    font-size: 18px;
+    color: #fff;
+}
+
+.form-control {
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(51, 51, 51, 0.8); /* Fondo oscuro con 80% de opacidad */
+    color: #fff;
+    border: 1px solid #555;
+}
+
+.form-control:focus {
+    background-color: rgba(68, 68, 68, 0.8); /* Fondo ligeramente más claro al enfocar */
+    border-color: #777;
+    outline: none;
+    box-shadow: 0 0 5px #fff;
+}
+
+.form-check-label {
+    color: #fff;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 15px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+.badge {
+    font-size: 25px;
+    padding: 15px;
+    background-color: #555;
+    color: #fff;
+}
+
+.bg-dark {
+    background-color: rgba(17, 17, 17, 0.7) !important; /* Cuadro más transparente (70% opacidad) */
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Indicador de fuerza de la contraseña */
+#passwordStrength {
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+/* Estilo para el mensaje de validación de longitud */
+#lengthValidation {
+    font-size: 14px;
+    color: white;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Caja de recomendaciones de seguridad */
+.recommendation-box {
+    background-color: rgba(34, 34, 34, 0.8);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+.recommendation-box h2 {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.recommendation-box p {
+    font-size: 16px;
+}
+
+.recommendation-box ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.recommendation-box li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
